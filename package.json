@@ -1,0 +1,28 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "typescript 学习demo",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -v",
+    "tsn:cmd": "ts-node ./src/DesignPattern/Behavioral/ChainofResponsibilityPattern.ts",
+    "jake:local": "jake local",
+    "tsn": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://apathyjade@github.com/aj-test/typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aj-test/typescript/issues"
+  },
+  "homepage": "https://github.com/aj-test/typescript#readme",
+  "devDependencies": {
+    "jake": "^8.0.16",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
