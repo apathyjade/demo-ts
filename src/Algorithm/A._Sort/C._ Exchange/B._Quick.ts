@@ -16,5 +16,10 @@ function quickShort (arra) {
     }
     return quickShort(left).concat([c], quickShort(right))
 }
-
+function quickShortV2 (array, start, end) {
+  if (start === end) {
+    return array
+  }
+  
+}
 console.log(quickShort([4, 6, 8, 5, 9, 1, 2, 5, 3, 2]))
