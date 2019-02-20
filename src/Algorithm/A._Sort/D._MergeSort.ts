@@ -24,7 +24,7 @@ function merge(arra, first, mid, last) {
 function mergeSort (arra, first = 0, last = arra.length - 1) {
   let l = last - first
   if (last <= first) {
-    return 0
+    return arra
   }
   let mid = Math.floor((last + first)/2)
   mergeSort(arra, first, mid)
